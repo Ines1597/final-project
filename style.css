@@ -31,4 +31,67 @@ header ul a{
             color:#ff007f;
             size: 25px;
         }
+    
+        main{
+            display: flex;
+            padding:25px;
 
+            justify-content: ;
+        }
+        main .sport{
+            font-size: 20px;
+            line-height: 1.5;
+            margin-top: 30px;
+            
+        }
+        .btn{
+            padding: 15px 10p;
+            cursor: pointer;
+            color:palevioletred;
+            border-radius: 10px;
+            border-color: pink;
+        }
+
+        .images {
+
+            display: flex;
+            justify-content: center;
+            gap: 20px
+        }
+
+        .images img {
+
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        .fa-facebook{
+            color: blue;
+            font-size: 50px;
+            margin-top: 25px;
+            padding-left: 12%;
+        }
+        .fa-square-instagram{
+            color:#ff007f;
+            font-size: 50px;
+            margin-top: 25px;
+            padding-left: 12%;
+        }
+        .fa-square-twitter{
+            font-size: 50px;
+            margin-top: 25px;
+            padding-left: 12%;
+    
+        }
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: row;
+}
+.search{
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    width: 50%;
+}

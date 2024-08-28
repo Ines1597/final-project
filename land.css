@@ -1,0 +1,88 @@
+.btn{
+    color: white;
+    background-color:purple;
+    border-radius: 6px;
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color:purple;
+    font-size: 20px;
+    width: 50%;
+    margin: 20px auto;
+
+}
+.inp{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+}
+header ul a{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    color : #ff007f;
+    font-size: 25px;
+
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        
+
+    }
+    header{
+        margin-top: 0px ;
+        display: flex;
+        justify-content: space-between ;
+        align-items: center;
+        padding: 25px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        background-color: pink;
+        }
+        body{
+            background-color: pink;
+        }
+        .fa-shopify{
+            color:#ff007f;
+            size: 25px;
+        }
+        .fa-facebook{
+            color: blue;
+            font-size: 50px;
+            margin-top: 25px;
+            padding-left: 12%;
+        }
+        .fa-square-instagram{
+            color:#ff007f;
+            font-size: 50px;
+            margin-top: 25px;
+            padding-left: 12%;
+        }
+        .fa-square-twitter{
+            font-size: 50px;
+            margin-top: 25px;
+            padding-left: 12%;
+    
+        }
+        .search{
+            padding: 10px;
+            border: none;
+            border-radius: 6px;
+            outline: none;
+            width: 50%;
+        }
+        footer{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-direction: row;
+        }
+
+        

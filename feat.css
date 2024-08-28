@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+      height: 100vh;
+      background-color: pink;
+  }
+  
+  .grid-item {
+      margin-top: 20px;
+      padding: 20px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      font-size:small;
+   }
+  
+  .grid-item img {
+      font-size: 25;
+      padding: 10px;
+      width: 100%;
+      height: auto;
+  }
+  
+  .grid-item p {
+      padding: 10px;
+  }
+  
+  
+  .btn {
+      padding: 12px;
+      border: none;
+      text-align: center;
+      background-color: purple;
+      cursor: pointer;
+      border-radius: 5px;
+      color: #fff;
+  }
+  
+  .myGrid {
+      padding: 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      gap: 10px;
+  }
+  img{
+    size: 25pxs;
+  }
+  header{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    header ul a{
+        padding: 20px;
+        display: flex;
+        gap: 20px;
+        color : #ff007f;
+        font-size: 25px;
+    
+        }
+        ul{
+            list-style: none;
+            display: flex;
+        }
+        .fa-basket-shopping{
+            color:blue;
+            padding: 10px;
+        }
+        .fa-shopify{
+            color:#ff007f;
+            size: 25px;
+        }
+        .fa-facebook{
+            color: blue;
+            font-size: 50px;
+            margin-top: 25px;
+            padding-left: 12%;
+        }
+        .fa-square-instagram{
+            color:#ff007f;
+            font-size: 50px;
+            margin-top: 25px;
+            padding-left: 12%;
+        }
+        .fa-square-twitter{
+            font-size: 50px;
+            margin-top: 25px;
+            padding-left: 12%;
+    
+        }
+        .search{
+            padding: 10px;
+            border: none;
+            border-radius: 6px;
+            outline: none;
+            width: 50%;
+        }
+        footer{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-direction: row;
+        }
+.product-title{
+    padding: 20px;
+    font-size: 45px;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+}
+        
