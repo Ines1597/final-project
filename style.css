@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: pink;
+}
+header ul a{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    color : #ff007f;
+    font-size: 25px;
+
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        
+
+    }
+    header{
+        display: flex;
+        justify-content: space-between ;
+        align-items: center;
+        padding: 25px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        .fa-shopify{
+            color:#ff007f;
+            size: 25px;
+        }
+
